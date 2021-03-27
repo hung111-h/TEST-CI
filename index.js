@@ -49,14 +49,14 @@
 let count = 0;
     function soSanh(){
         let val = document.getElementById("value").value;
-        let randomNumber;
-        randomNumber = Math.floor(Math.random() * 10);
+        let randomNumber1;
+        randomNumber1 = Math.floor(Math.random() * 10);
         if(val == ""){
             alert("Hãy Nhập số bạn dự đoán!!!")
         }
         if(count < 3){
             if(val > 1 && val < 10){
-                if(val == randomNumber){
+                if(val == randomNumber1){
                     alert("Bạn đã trúng thưởng");
                 }   else{
                     alert("Chúc bạn may măn lần sau :)")

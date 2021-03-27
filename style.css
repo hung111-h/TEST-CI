@@ -1,0 +1,40 @@
+
+.content {
+    background-color: rgba(154, 243, 228, 0.8);
+    text-align: center;
+    margin: 50px 450px 250px 450px ;
+}
+
+.content-header {
+    font-family: sans-serif, monospace;
+    background: rgb(228, 10, 53);
+    font-size: 50px;
+    color: white;
+}
+
+.content-body {
+    margin-top: -40px;
+}
+
+.content-int{
+    padding-bottom: 20px;
+}
+
+.content-int button {
+    border-radius: 4px;
+    background: greenyellow;
+    border-color: greenyellow;
+}
+
+.content-int button:hover{
+    background-color: palegreen;
+    border-color: palegreen;
+}
+
+@media only screen and (min-width:240px) and (max-width:480px){
+.content {
+        width: 100%;
+    margin-left: 0px;
+}
+}
+
